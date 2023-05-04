@@ -1,7 +1,7 @@
 <?php
-$server = "localhost";
-$user = "root";
-$password = "";
+$server = "servidortcc0405.database.windows.net";
+$user = "adm";
+$password = "Senai260";
 $bd = "fluxocaixa";
 
 try {
