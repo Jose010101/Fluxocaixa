@@ -1,7 +1,7 @@
 <?php
 echo "FI";
 include_once("../conexao.php");
-
+echo "JUSAAAAAAAAAA";
 $codigo = $_POST['codigo_user'];
 $senha = $_POST['senha_user'];
 
