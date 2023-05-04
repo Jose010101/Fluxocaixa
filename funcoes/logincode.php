@@ -1,8 +1,9 @@
 <?php
-//include_once("../conexao.php");
+echo "FI";
+include_once("../conexao.php");
 
-//$codigo = $_POST['codigo_user'];
-//$senha = $_POST['senha_user'];
+$codigo = $_POST['codigo_user'];
+$senha = $_POST['senha_user'];
 
 // Verifica se todos os campos foram preenchidos
 if(isset($_POST['codigo_user']) && isset($_POST['senha_user'])){
