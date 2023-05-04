@@ -16,7 +16,7 @@ include "conexao.php";
     <title>Página de Login</title>
 </head>
 <body>
-    <form action="funcoes/loginCode.php" method="POST">
+    <form action="funcoes/logincode.php" method="POST">
     <input type="text" name="codigo_user" placeholder="Código do usuário">
     <br>
     <input type="password" name="senha_user" placeholder = "Senha do usuário">
