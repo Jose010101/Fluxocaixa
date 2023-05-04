@@ -1,7 +1,7 @@
 <?php
 // PHP Data Objects(PDO) Sample Code:
 try {
-    $conn = new PDO("sqlsrv:server = tcp:servidortcc0405.database.windows.net,1433; Database = fluxocaixa", "adm", "{your_password_here}");
+    $conn = new PDO("sqlsrv:server = tcp:servidortcc0405.database.windows.net,1433; Database = fluxocaixa", "adm", "Senai260");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
