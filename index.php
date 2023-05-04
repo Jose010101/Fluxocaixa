@@ -1,6 +1,4 @@
 <?php
-
-echo "fi";
 if (isset($_SESSION['carrinho'])){
     $_SESSION['carrinho'] = array();
   }
